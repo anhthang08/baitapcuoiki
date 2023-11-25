@@ -1,0 +1,420 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+.container {
+    margin: auto;
+    min-height: 100vh;
+    width: 1920px;}
+   
+.top-main {
+    width: 1920px;
+    height: 847px;
+    flex-shrink: 0;
+    background-color: var(--Black-5, rgba(30, 40, 50, 0.05));
+    position: relative;
+    padding-top: 31px;} 
+    
+.header {width: 1320px;
+    height: 113px;
+    margin: auto;
+    gap: 30px;}
+    
+.top-header {width:1320px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    position: relative;}
+    
+.top-header span {
+    color: var(--Dark, #000);
+    font-family: 'AmstelvarAlpha', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.top-header svg {
+    margin: 10px;
+}
+.top-header>i{
+    position: absolute;
+    left: 0;
+    top: 4px;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+    
+/* button account shoping */
+.account {
+    display: flex;
+    width: 221px;
+    height: 25px; 
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    padding-right: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.account button {
+    width: 100px;;
+    height: 25px;
+    border: none;
+    background: none;
+    margin: 0; 
+    font-size: 18px;
+}
+    
+.account li {
+    list-style-type: none;
+}
+    
+.account li button i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+       
+.account li button a { text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    color: black;}
+/* .account li button:hover a {
+    color: rgb(243, 86, 51);
+}
+.account li button:hover i {
+    color: rgb(243, 86, 51);
+} */
+/* line */
+hr {
+    height: 1px;
+    background: #E3E3E3;
+}
+/* top menu */
+.menu {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li {
+    list-style-type: none;
+    color: var(--Dark, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+/* product */
+.product {
+    width: 1226px;
+    height: 526px;
+    margin-left: 300px;
+    margin-top: 80px;
+    flex-shrink: 0;
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+}
+.content {
+    width: 686px;
+    height: 364px;
+    padding-left: 4px;
+    margin-top: 74px;
+    /* background-color: red; */
+    z-index: 999999;
+}
+.content p:nth-child(1) {
+    color: black;
+    font-size: 74px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 55px;
+    word-wrap: break-word;
+}
+.content p:nth-child(2) {
+    color: black;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 61px;
+    word-wrap: break-word;
+    margin-top: 52px;
+}
+.content button {
+    width: 223px;
+    height: 72px;
+    margin-top: 85px;
+    padding: 19px,26px,19px,26px;
+    background: var(--Black, #1E2832);
+}
+.content button i {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Font Awesome 6 Free;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.content button span {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.image {
+    /* display: flex; */
+    margin-left: 98px;
+}
+.frame {
+    width: 1920px;
+    height: 6110px;
+    background: #FFF;
+    position: relative;
+}
+.brand {
+    width: 1320px;
+    height: 70px;
+    margin-left: 300px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hot-category {
+    width: 1320px;
+    height: 648px;
+    margin-left: 300px;
+    margin-top: 90px;
+    display: flex;
+    position: relative;
+
+}
+.hot-category p {
+    width: 648px;
+    height: 52px;
+    transform: rotate(-90deg);
+    font-size: 34px;
+    position: absolute;
+    left: -350px;
+    top : 298px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    text-align: center;
+} 
+.hot-category .image-category {
+    width: 648px;
+    height: 648px;
+    position: relative;
+}
+.hot-category .button-category {
+    width: 648px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+.card-right {
+    width: 648px;
+    height: 648px;
+    margin-left: 24px;
+}
+.row {
+    height: 312px;
+    display: flex;
+    margin: 0 -12px;
+    flex-wrap: wrap;
+}
+.column {
+    width: calc(100% / 2);
+}
+.card {
+    padding-left: 12px;
+    padding-right: 12px;     
+}
+.content-card {
+    width: 100%;
+    height: 312px;
+    margin-bottom: 20px;
+}
+.grid-products {
+    width: 1320px;
+    height: 1141px;
+    
+    margin-left: 300px;
+    margin-top: 80px;
+}
+.top-section-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;}
+/* title */
+.section-title {
+    width: 707px;
+    height: 59px;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+    color: #000;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.top-section {
+    width: 100%;
+    height: 32px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.top-section-products {
+    width: 373px;
+    height: 22px;
+}
+.top-section-products ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.top-section-products ul li .item-tab-first {
+    width: 92px;
+    height: 22px;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top-section-products ul li .item-tab {
+    color: var(--Dark-50, rgba(0, 0, 0, 0.50));
+  
+}   
+.top-section-products button {
+    height: 32px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: var(--Black, #1E2832);
+    color: white;
+    display:flex;
+    padding: 5px 15px;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+}
+.hot-product {
+    width: 1320px;
+    height: 980px;
+    /* background-color: aqua; */
+    margin-top: 35px;
+
+}
+.columntop {
+    width: calc(100%/4);
+}
+.container-product {
+    width: 100%;
+    display: flex;
+    margin: 0 -12px;
+    flex-wrap: wrap;
+
+}
+.row-product {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.top-product {
+    width: 312px;
+    height: 478px;
+    /* background-color: #1E2832; */
+    margin-bottom: 24px;
+    
+}
+.baner {
+    width: 1920px;
+    height: 776px;
+    position: relative;
+    margin-top: 140px;
+    margin-right: 300px;
+}
+
+.baner-logo1 {
+    width: 676px;
+    height: 309px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 1244px;
+    top: 51px;
+    background: cover no-repeat;
+}
+.baner-logo2 {
+    width: 191px;
+    height: 81px;
+    position: absolute;
+    top: 233px;
+    right: 646px;
+}
+.baner-content {width: 504px;
+    height: 187px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 153.846% */
+    text-transform: capitalize;
+    color: #FFF;
+    position: absolute;
+    top: 369px;
+    right: 333px;
+}
+.baner button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    color: var(--Black, #1E2832);
+    font-feature-settings: 'clig' off, 'liga' off;
+    padding: 19px 26px;
+    position: absolute;
+    left: 1084px;
+    top: 611px;
+}
+
+.baner button:hover{background-color: #FF6F61;}
+/* dữ liệu slider product*/
+.slider-products {width: 1320px;
+    height: 639px;
+    
+    margin: 140px 300px 0 ;}
+.slider-products .slider-tittle{
+    text-align: center; 
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word
+}
+       
